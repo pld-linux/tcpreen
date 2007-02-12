@@ -1,5 +1,5 @@
 Summary:	tcpreen - TCP stream monitor tool
-Summary(pl.UTF-8):   tcpreen - narzędzie monitorujące strumienie TCP
+Summary(pl.UTF-8):	tcpreen - narzędzie monitorujące strumienie TCP
 Name:		tcpreen
 Version:	1.4.3
 Release:	1
