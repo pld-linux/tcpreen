@@ -1,5 +1,5 @@
 Summary:	tcpreen - TCP stream monitor tool
-Summary(pl):	tcpreen - narzêdzie monitoruj±ce strumienie TCP
+Summary(pl.UTF-8):   tcpreen - narzÄ™dzie monitorujÄ…ce strumienie TCP
 Name:		tcpreen
 Version:	1.4.3
 Release:	1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 tcpreen is a tool to monitor and analyse data transmitted between a
 client and server via a TCP connection.
 
-%description -l pl
-tcpreen jest narzêdziem do monitorowania i analizowania danych
-przesy³anych miêdzy klientem a serwerem z u¿yciem po³±czenia TCP.
+%description -l pl.UTF-8
+tcpreen jest narzÄ™dziem do monitorowania i analizowania danych
+przesyÅ‚anych miÄ™dzy klientem a serwerem z uÅ¼yciem poÅ‚Ä…czenia TCP.
 
 %prep
 %setup -q
