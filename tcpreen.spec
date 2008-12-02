@@ -1,14 +1,14 @@
 Summary:	tcpreen - TCP stream monitor tool
 Summary(pl.UTF-8):	tcpreen - narzędzie monitorujące strumienie TCP
 Name:		tcpreen
-Version:	1.4.3
+Version:	1.4.4
 Release:	1
 License:	GPL v2
 Group:		Applications/Networking
-Source0:	http://dl.sourceforge.net/tcpreen/%{name}-%{version}.tar.bz2
-# Source0-md5:	c51982e8cb8fed75f55f5b3964b3f37c
+Source0:	http://www.remlab.net/files/tcpreen/stable/%{name}-%{version}.tar.bz2
+# Source0-md5:	09196ecb0116b6ecef425d680ba03e83
 Patch0:		%{name}-words.patch
-URL:		http://www.simphalempin.com/dev/tcpreen/
+URL:		http://www.remlab.net/tcpreen/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
