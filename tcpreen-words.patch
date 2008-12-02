@@ -1,12 +1,11 @@
-diff -urN tcpreen-1.4.1/src/main.cpp tcpreen-1.4.1.new/src/main.cpp
---- tcpreen-1.4.1/src/main.cpp	2004-06-27 17:24:30.000000000 +0200
-+++ tcpreen-1.4.1.new/src/main.cpp	2005-02-12 22:43:25.455751312 +0100
-@@ -126,7 +126,7 @@
+--- tcpreen-1.4.4/src/main.cpp.orig	2007-12-19 21:25:37.000000000 +0100
++++ tcpreen-1.4.4/src/main.cpp	2008-12-02 18:53:25.592815286 +0100
+@@ -124,7 +124,7 @@
  static int
  quick_usage (void)
  {
--	fputs (_("Try `tcpreeen -h | more' for more information.\n"), stderr);
-+	fputs (_("Try `tcpreen -h | more' for more information.\n"), stderr);
+-	fputs (_("Try \"tcpreeen -h | more\" for more information.\n"), stderr);
++	fputs (_("Try \"tcpreen -h | more\" for more information.\n"), stderr);
  	return MAIN_PARMPROB;
  }
  
